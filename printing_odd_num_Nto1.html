@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Odd Numbers from N to 1</title>
+</head>
+<body>
+
+<script>
+    var n = Number(prompt("Enter the value of N:"));
+   
+    document.write("<h3>Odd numbers from " + n + " to 1:</h3>");
+
+    for (var i = n; i >= 1; i--) {
+        if (i % 2 !== 0) {
+            document.write(i + "<br>");
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <script>
+
+        var start = parseInt(prompt("Enter the starting year : "));
+        var end = parseInt(prompt("Enter the ending year : "));
+
+        // Leap year check condition
+        for (var i = start; i <= end; i++) {
+            if ((i % 4 === 0 && i % 100 !== 0) || (i % 400 === 0)) {
+                alert(i + " ");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
